@@ -2,7 +2,7 @@
 authors = ["Suvash Thapaliya <suvash@gmail.com>"]
 channels = ["https://conda.modular.com/max-nightly", "conda-forge"]
 name = "hello-world"
-platforms = ["osx-arm64"]
+platforms = ["linux-64", "osx-arm64"]
 version = "0.1.0"
 
 [tasks]

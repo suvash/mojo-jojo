@@ -5,7 +5,8 @@
   outputs = { self, nixpkgs }:
     let
       allSystems = [
-        "aarch64-darwin" # 64-bit macOS ARM
+        "aarch64-darwin"
+        "x86_64-linux"
       ];
 
       forAllSystems = f: nixpkgs.lib.genAttrs allSystems (system: f {
