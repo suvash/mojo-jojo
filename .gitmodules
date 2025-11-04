@@ -1,0 +1,3 @@
+[submodule "mojo-gpu-puzzles"]
+	path = mojo-gpu-puzzles
+	url = git@github.com:suvash/mojo-gpu-puzzles.git
