@@ -56,6 +56,8 @@
               ]
             }:$LIBRARY_PATH
 
+          '' + ''
+            export MODULAR_TELEMETRY_ENABLED=0
             export MOJO_ENABLE_STACK_TRACE_ON_ERROR=1
 
             echo "Mojo Jojo ready!!!"
